@@ -1,0 +1,50 @@
+/*!
+ * CSS Modification by Mark Rivera & Richard Hilton - Dog and Rooster, Inc., 2013
+ * Copyright by Twitter Bootstrap
+ *
+ * Core CSS
+ */
+
+/*! WEB FONTS */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+/*font-family: 'Open Sans', sans-serif;*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+
+
+::-moz-selection { background: #B3D4FC; color: #555; text-shadow: none; }
+::selection 	 { background: #B3D4FC; color: #555; text-shadow: none; }
+
+.validation-alert { position: absolute; top: 0; left: 0; background: #BF4804; color: #FFF; text-align: center; width: 100%; padding: 20px 0; z-index: 10000; }
+
+.notify {
+	position: fixed;
+	top: 0;
+	left: -5%;
+	display: none;
+	background: url(../images/ico/linen.jpg) repeat;
+	font-size: 11px;
+	color: #FFF;
+	text-shadow: 1px 1px 2px #000;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 80px;
+	width: 110%;
+	height: 80px;
+	padding: 10px;
+	z-index: 0;
+	box-shadow: inset 0 -5px 10px 0 rgba(0,0,0,.45);
+}
+
+
+/*! CSS HACKS FOR OLD AND MODERN BROWSER */
+
+.msie { }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { }
+
+@-moz-document url-prefix() { }
+
+
